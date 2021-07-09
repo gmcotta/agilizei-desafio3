@@ -1,7 +1,6 @@
 /// <reference types="cypress" />
 
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
 import { mount } from "@cypress/react";
 
 import Input from '../../src/components/Input';
@@ -19,9 +18,7 @@ context('<Input />', () => {
     const givenName = 'Gustavo';
     
     mount(
-      <BrowserRouter>
-        <Input label={label} name={name} />
-      </BrowserRouter>
+      <Input label={label} name={name} />
     );
 
     cy.get('label').as('label');

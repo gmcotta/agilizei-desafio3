@@ -1,7 +1,6 @@
 /// <reference types="cypress" />
 
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
 import { mount } from "@cypress/react";
 
 import Textarea from '../../src/components/Textarea';
@@ -15,9 +14,7 @@ context('<Textarea />', () => {
     const textareaValue = 'Some description';
 
     mount(
-      <BrowserRouter>
-        <Textarea label={label} name={name} />
-      </BrowserRouter>
+      <Textarea label={label} name={name} />
     );
 
     cy.get('label').as('label');
