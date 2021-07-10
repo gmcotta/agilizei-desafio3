@@ -25,7 +25,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --quiet",
-    "lint-fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
+    "lint-fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "cy:open": "yarn cypress open",
+    "cy:open-ct": "yarn cypress open-ct",
+    "cy:run:desktop": "yarn cypress run --config viewportWidth=1200",
+    "cy:run:tablet": "yarn cypress run --config viewportWidth=768"
   },
   "eslintConfig": {
     "extends": "react-app"
