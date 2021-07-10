@@ -13,15 +13,15 @@ jobs:
       - name: Install server dependencies
         uses: bahmutov/npm-install@v1.6.0
         with:
-          working_directory: server
+          working-directory: server
       - name: Install web dependencies
         uses: bahmutov/npm-install@v1.6.0
         with:
-          working_directory: web
+          working-directory: web
       - name: Component & API & UI tests
         uses: cypress-io/github-action@v2.9.7
         with:
-          working_directory: web
+          working-directory: web
           install: false
           start: yarn start:ci
           wait-on: 'http://localhost:3000'
