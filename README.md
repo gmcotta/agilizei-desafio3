@@ -62,4 +62,8 @@ To run the component tests
 To run API and UI tests:
 `npm run test:all` or `yarn test:all`
 
+<<<<<<< HEAD
 To check code coverage, open `coverage/index.html`
+=======
+To check code coverage, open `coverage/index.html`
+>>>>>>> 19f5c97864196da78dabcd9c93718d04e88f2b0f
