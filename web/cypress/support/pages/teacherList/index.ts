@@ -1,6 +1,10 @@
 import el from './elements';
 
 class TeacherList {
+  interceptPostConnections201() {
+    cy.intercept('/connections').as('Post-Connections');
+  }
+
   accessPage() {
     cy.visit('/study');
   }
@@ -13,6 +17,10 @@ class TeacherList {
 
   submitForm() {
     cy.get(el.buttonSearch).click();
+  }
+
+  clickOnContactLink() {
+    cy.get(':nth-child(1) > footer > a').click();
   }
 
   checkIfShowsAvailableTeacherList() {
@@ -38,6 +46,12 @@ class TeacherList {
     cy.get(':nth-child(1) > footer > a')
       .invoke('attr', 'href')
       .should('contain', 'https://wa.me/(77) 01403-0500');
+  }
+
+  checkIfCreateNewConnectionWasCalled() {
+    cy.wait('@Post-Connections').then(({ response }) => {
+      expect(response.statusCode).to.equal(201);
+    })
   }
 }
 

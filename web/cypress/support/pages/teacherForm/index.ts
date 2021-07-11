@@ -6,7 +6,7 @@ faker.locale = 'pt_BR';
 
 class TeacherForm {
   interceptPostClasses201() {
-    cy.intercept('POST', '**/classes').as('Post-Classes');
+    cy.intercept('POST', '/classes').as('Post-Classes');
   }
   
   interceptPostClasses400() {

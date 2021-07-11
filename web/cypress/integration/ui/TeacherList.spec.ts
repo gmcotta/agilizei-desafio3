@@ -12,4 +12,15 @@ context('Teacher List Page', () => {
 
     teacherListPage.checkIfShowsAvailableTeacherList();
   });
+
+  it('should check if createNewConnection was called', () => {
+    teacherListPage.interceptPostConnections201();
+    teacherListPage.accessPage();
+
+    teacherListPage.fillForm();
+    teacherListPage.submitForm();
+    teacherListPage.clickOnContactLink();
+
+    teacherListPage.checkIfCreateNewConnectionWasCalled();
+  });
 });
