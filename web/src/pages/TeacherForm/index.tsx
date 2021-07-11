@@ -139,7 +139,7 @@ function TeacherForm(): ReactElement {
             </legend>
             {scheduleItems.map((scheduleItem, index) => {
               return (
-                <div key={index} className="schedule-item">
+                <div key={index} className={`schedule-item item-${index}`}>
                   <Select
                     name="week_day"
                     label="Dia da Semana"

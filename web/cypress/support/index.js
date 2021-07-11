@@ -18,11 +18,10 @@ import '@bahmutov/cy-api/support';
 import '@cypress/code-coverage/support';
 
 import './commands';
-import Routes from './routes';
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 
-beforeEach(() => {
-  Routes.init();
-});
+// beforeEach(() => {
+//   Routes.init();
+// });

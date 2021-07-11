@@ -23,7 +23,7 @@ const injectCoverage = require('@cypress/code-coverage/task');
 module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
-  injectCoverage(on, config)
   injectDevServer(on, config);
+  injectCoverage(on, config);
   return config;
 }

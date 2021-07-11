@@ -30,7 +30,7 @@ context('Classes endpoint', () => {
       body,
     }).then(response => {
       expect(response.status).to.equal(201);
-      expect(response.duration).lessThan(300);
+      expect(response.duration).lessThan(1000);
       expect(response.headers)
         .to.have.property('content-type')
         .an('string')

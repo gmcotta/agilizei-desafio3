@@ -1,1 +1,1841 @@
-{}
+{
+  "/home/gustavo/develop/agilizei/cypress/modulo-04-1/web/src/services/api.ts": {
+    "path": "/home/gustavo/develop/agilizei/cypress/modulo-04-1/web/src/services/api.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 12
+        },
+        "end": {
+          "line": 5,
+          "column": 2
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 11
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "d06ee16fd2dd4314a7058f1f5ffe6301bae3e503"
+  },
+  "/home/gustavo/develop/agilizei/cypress/modulo-04-1/web/src/pages/Landing/index.tsx": {
+    "path": "/home/gustavo/develop/agilizei/cypress/modulo-04-1/web/src/pages/Landing/index.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 15,
+          "column": 50
+        },
+        "end": {
+          "line": 15,
+          "column": 61
+        }
+      },
+      "1": {
+        "start": {
+          "line": 17,
+          "column": 2
+        },
+        "end": {
+          "line": 23,
+          "column": 9
+        }
+      },
+      "2": {
+        "start": {
+          "line": 18,
+          "column": 4
+        },
+        "end": {
+          "line": 22,
+          "column": 7
+        }
+      },
+      "3": {
+        "start": {
+          "line": 19,
+          "column": 24
+        },
+        "end": {
+          "line": 19,
+          "column": 37
+        }
+      },
+      "4": {
+        "start": {
+          "line": 21,
+          "column": 6
+        },
+        "end": {
+          "line": 21,
+          "column": 33
+        }
+      },
+      "5": {
+        "start": {
+          "line": 25,
+          "column": 2
+        },
+        "end": {
+          "line": 56,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Landing",
+        "decl": {
+          "start": {
+            "line": 14,
+            "column": 9
+          },
+          "end": {
+            "line": 14,
+            "column": 16
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 33
+          },
+          "end": {
+            "line": 57,
+            "column": 1
+          }
+        },
+        "line": 14
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 17,
+            "column": 12
+          },
+          "end": {
+            "line": 17,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 18
+          },
+          "end": {
+            "line": 23,
+            "column": 3
+          }
+        },
+        "line": 17
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 18,
+            "column": 32
+          },
+          "end": {
+            "line": 18,
+            "column": 33
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 44
+          },
+          "end": {
+            "line": 22,
+            "column": 5
+          }
+        },
+        "line": 18
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 30,
+      "1": 30,
+      "2": 8,
+      "3": 7,
+      "4": 7,
+      "5": 30
+    },
+    "f": {
+      "0": 30,
+      "1": 8,
+      "2": 7
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "5cccb3891293e0b848460a95d09cf0cd0c7c81e5"
+  },
+  "/home/gustavo/develop/agilizei/cypress/modulo-04-1/web/src/components/PageHeader/index.tsx": {
+    "path": "/home/gustavo/develop/agilizei/cypress/modulo-04-1/web/src/components/PageHeader/index.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 15,
+          "column": 46
+        },
+        "end": {
+          "line": 33,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 16,
+          "column": 2
+        },
+        "end": {
+          "line": 32,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 15,
+            "column": 46
+          },
+          "end": {
+            "line": 15,
+            "column": 47
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 101
+          },
+          "end": {
+            "line": 33,
+            "column": 1
+          }
+        },
+        "line": 15
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 27,
+            "column": 9
+          },
+          "end": {
+            "line": 27,
+            "column": 44
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 27,
+              "column": 9
+            },
+            "end": {
+              "line": 27,
+              "column": 20
+            }
+          },
+          {
+            "start": {
+              "line": 27,
+              "column": 24
+            },
+            "end": {
+              "line": 27,
+              "column": 44
+            }
+          }
+        ],
+        "line": 27
+      }
+    },
+    "s": {
+      "0": 11,
+      "1": 1814
+    },
+    "f": {
+      "0": 1814
+    },
+    "b": {
+      "0": [
+        1814,
+        1800
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "8185aaef80a8973ad0a3803b1afe0e396f1d8339"
+  },
+  "/home/gustavo/develop/agilizei/cypress/modulo-04-1/web/src/components/TeacherItem/index.tsx": {
+    "path": "/home/gustavo/develop/agilizei/cypress/modulo-04-1/web/src/components/TeacherItem/index.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 22,
+          "column": 48
+        },
+        "end": {
+          "line": 61,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 24,
+          "column": 4
+        },
+        "end": {
+          "line": 26,
+          "column": 7
+        }
+      },
+      "2": {
+        "start": {
+          "line": 29,
+          "column": 2
+        },
+        "end": {
+          "line": 60,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 22,
+            "column": 48
+          },
+          "end": {
+            "line": 22,
+            "column": 49
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 83
+          },
+          "end": {
+            "line": 61,
+            "column": 1
+          }
+        },
+        "line": 22
+      },
+      "1": {
+        "name": "createNewConnection",
+        "decl": {
+          "start": {
+            "line": 23,
+            "column": 11
+          },
+          "end": {
+            "line": 23,
+            "column": 30
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 33
+          },
+          "end": {
+            "line": 27,
+            "column": 3
+          }
+        },
+        "line": 23
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 11,
+      "1": 0,
+      "2": 18
+    },
+    "f": {
+      "0": 18,
+      "1": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "a7777eb238fe31937b88bd8a7ee7f818a7c6b3da"
+  },
+  "/home/gustavo/develop/agilizei/cypress/modulo-04-1/web/src/components/Input/index.tsx": {
+    "path": "/home/gustavo/develop/agilizei/cypress/modulo-04-1/web/src/components/Input/index.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 10,
+          "column": 35
+        },
+        "end": {
+          "line": 17,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 11,
+          "column": 2
+        },
+        "end": {
+          "line": 16,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 35
+          },
+          "end": {
+            "line": 10,
+            "column": 36
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 77
+          },
+          "end": {
+            "line": 17,
+            "column": 1
+          }
+        },
+        "line": 10
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 11,
+      "1": 11670
+    },
+    "f": {
+      "0": 11670
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "1c6333aff539699c0cd3147b817fd3a802507e31"
+  },
+  "/home/gustavo/develop/agilizei/cypress/modulo-04-1/web/src/components/Select/index.tsx": {
+    "path": "/home/gustavo/develop/agilizei/cypress/modulo-04-1/web/src/components/Select/index.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 14,
+          "column": 37
+        },
+        "end": {
+          "line": 26,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 15,
+          "column": 2
+        },
+        "end": {
+          "line": 25,
+          "column": 4
+        }
+      },
+      "2": {
+        "start": {
+          "line": 21,
+          "column": 10
+        },
+        "end": {
+          "line": 21,
+          "column": 89
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 14,
+            "column": 37
+          },
+          "end": {
+            "line": 14,
+            "column": 38
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 89
+          },
+          "end": {
+            "line": 26,
+            "column": 1
+          }
+        },
+        "line": 14
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 20,
+            "column": 21
+          },
+          "end": {
+            "line": 20,
+            "column": 22
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 31
+          },
+          "end": {
+            "line": 22,
+            "column": 9
+          }
+        },
+        "line": 20
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 11,
+      "1": 4056,
+      "2": 35648
+    },
+    "f": {
+      "0": 4056,
+      "1": 35648
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "513ea509ec0816cdc2d519151644ae92bd0e6fb2"
+  },
+  "/home/gustavo/develop/agilizei/cypress/modulo-04-1/web/src/pages/TeacherList/index.tsx": {
+    "path": "/home/gustavo/develop/agilizei/cypress/modulo-04-1/web/src/pages/TeacherList/index.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 11,
+          "column": 32
+        },
+        "end": {
+          "line": 11,
+          "column": 44
+        }
+      },
+      "1": {
+        "start": {
+          "line": 12,
+          "column": 32
+        },
+        "end": {
+          "line": 12,
+          "column": 44
+        }
+      },
+      "2": {
+        "start": {
+          "line": 13,
+          "column": 26
+        },
+        "end": {
+          "line": 13,
+          "column": 38
+        }
+      },
+      "3": {
+        "start": {
+          "line": 15,
+          "column": 34
+        },
+        "end": {
+          "line": 15,
+          "column": 46
+        }
+      },
+      "4": {
+        "start": {
+          "line": 18,
+          "column": 4
+        },
+        "end": {
+          "line": 18,
+          "column": 23
+        }
+      },
+      "5": {
+        "start": {
+          "line": 20,
+          "column": 21
+        },
+        "end": {
+          "line": 26,
+          "column": 6
+        }
+      },
+      "6": {
+        "start": {
+          "line": 28,
+          "column": 4
+        },
+        "end": {
+          "line": 28,
+          "column": 31
+        }
+      },
+      "7": {
+        "start": {
+          "line": 31,
+          "column": 2
+        },
+        "end": {
+          "line": 87,
+          "column": 4
+        }
+      },
+      "8": {
+        "start": {
+          "line": 39,
+          "column": 29
+        },
+        "end": {
+          "line": 39,
+          "column": 55
+        }
+      },
+      "9": {
+        "start": {
+          "line": 58,
+          "column": 29
+        },
+        "end": {
+          "line": 58,
+          "column": 55
+        }
+      },
+      "10": {
+        "start": {
+          "line": 74,
+          "column": 29
+        },
+        "end": {
+          "line": 74,
+          "column": 52
+        }
+      },
+      "11": {
+        "start": {
+          "line": 83,
+          "column": 10
+        },
+        "end": {
+          "line": 83,
+          "column": 67
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "TeacherList",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 9
+          },
+          "end": {
+            "line": 10,
+            "column": 20
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 37
+          },
+          "end": {
+            "line": 88,
+            "column": 1
+          }
+        },
+        "line": 10
+      },
+      "1": {
+        "name": "searchTeachers",
+        "decl": {
+          "start": {
+            "line": 17,
+            "column": 17
+          },
+          "end": {
+            "line": 17,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 46
+          },
+          "end": {
+            "line": 29,
+            "column": 3
+          }
+        },
+        "line": 17
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 39,
+            "column": 22
+          },
+          "end": {
+            "line": 39,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 39,
+            "column": 27
+          },
+          "end": {
+            "line": 39,
+            "column": 57
+          }
+        },
+        "line": 39
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 58,
+            "column": 22
+          },
+          "end": {
+            "line": 58,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 58,
+            "column": 27
+          },
+          "end": {
+            "line": 58,
+            "column": 57
+          }
+        },
+        "line": 58
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 74,
+            "column": 22
+          },
+          "end": {
+            "line": 74,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 74,
+            "column": 27
+          },
+          "end": {
+            "line": 74,
+            "column": 54
+          }
+        },
+        "line": 74
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 82,
+            "column": 22
+          },
+          "end": {
+            "line": 82,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 82,
+            "column": 44
+          },
+          "end": {
+            "line": 84,
+            "column": 9
+          }
+        },
+        "line": 82
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 14,
+      "1": 14,
+      "2": 14,
+      "3": 14,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 14,
+      "8": 1,
+      "9": 1,
+      "10": 1,
+      "11": 18
+    },
+    "f": {
+      "0": 14,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 18
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "58358a5e64a1e20544d3af0eb9fedaccef2d4f45"
+  },
+  "/home/gustavo/develop/agilizei/cypress/modulo-04-1/web/src/components/Textarea/index.tsx": {
+    "path": "/home/gustavo/develop/agilizei/cypress/modulo-04-1/web/src/components/Textarea/index.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 10,
+          "column": 41
+        },
+        "end": {
+          "line": 17,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 11,
+          "column": 2
+        },
+        "end": {
+          "line": 16,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 41
+          },
+          "end": {
+            "line": 10,
+            "column": 42
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 86
+          },
+          "end": {
+            "line": 17,
+            "column": 1
+          }
+        },
+        "line": 10
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 11,
+      "1": 1800
+    },
+    "f": {
+      "0": 1800
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "79a240cafbf7ce451967a3f3f5f54212a4208f13"
+  },
+  "/home/gustavo/develop/agilizei/cypress/modulo-04-1/web/src/pages/TeacherForm/index.tsx": {
+    "path": "/home/gustavo/develop/agilizei/cypress/modulo-04-1/web/src/pages/TeacherForm/index.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 14,
+          "column": 18
+        },
+        "end": {
+          "line": 14,
+          "column": 30
+        }
+      },
+      "1": {
+        "start": {
+          "line": 16,
+          "column": 26
+        },
+        "end": {
+          "line": 16,
+          "column": 38
+        }
+      },
+      "2": {
+        "start": {
+          "line": 17,
+          "column": 30
+        },
+        "end": {
+          "line": 17,
+          "column": 42
+        }
+      },
+      "3": {
+        "start": {
+          "line": 18,
+          "column": 24
+        },
+        "end": {
+          "line": 18,
+          "column": 36
+        }
+      },
+      "4": {
+        "start": {
+          "line": 19,
+          "column": 34
+        },
+        "end": {
+          "line": 19,
+          "column": 46
+        }
+      },
+      "5": {
+        "start": {
+          "line": 21,
+          "column": 32
+        },
+        "end": {
+          "line": 21,
+          "column": 44
+        }
+      },
+      "6": {
+        "start": {
+          "line": 22,
+          "column": 26
+        },
+        "end": {
+          "line": 22,
+          "column": 38
+        }
+      },
+      "7": {
+        "start": {
+          "line": 24,
+          "column": 44
+        },
+        "end": {
+          "line": 26,
+          "column": 4
+        }
+      },
+      "8": {
+        "start": {
+          "line": 29,
+          "column": 4
+        },
+        "end": {
+          "line": 31,
+          "column": 7
+        }
+      },
+      "9": {
+        "start": {
+          "line": 35,
+          "column": 4
+        },
+        "end": {
+          "line": 35,
+          "column": 23
+        }
+      },
+      "10": {
+        "start": {
+          "line": 37,
+          "column": 4
+        },
+        "end": {
+          "line": 51,
+          "column": 7
+        }
+      },
+      "11": {
+        "start": {
+          "line": 46,
+          "column": 6
+        },
+        "end": {
+          "line": 46,
+          "column": 47
+        }
+      },
+      "12": {
+        "start": {
+          "line": 48,
+          "column": 6
+        },
+        "end": {
+          "line": 48,
+          "column": 24
+        }
+      },
+      "13": {
+        "start": {
+          "line": 50,
+          "column": 6
+        },
+        "end": {
+          "line": 50,
+          "column": 33
+        }
+      },
+      "14": {
+        "start": {
+          "line": 55,
+          "column": 32
+        },
+        "end": {
+          "line": 61,
+          "column": 6
+        }
+      },
+      "15": {
+        "start": {
+          "line": 56,
+          "column": 6
+        },
+        "end": {
+          "line": 58,
+          "column": 7
+        }
+      },
+      "16": {
+        "start": {
+          "line": 57,
+          "column": 8
+        },
+        "end": {
+          "line": 57,
+          "column": 51
+        }
+      },
+      "17": {
+        "start": {
+          "line": 60,
+          "column": 6
+        },
+        "end": {
+          "line": 60,
+          "column": 26
+        }
+      },
+      "18": {
+        "start": {
+          "line": 63,
+          "column": 4
+        },
+        "end": {
+          "line": 63,
+          "column": 42
+        }
+      },
+      "19": {
+        "start": {
+          "line": 66,
+          "column": 2
+        },
+        "end": {
+          "line": 194,
+          "column": 4
+        }
+      },
+      "20": {
+        "start": {
+          "line": 81,
+          "column": 33
+        },
+        "end": {
+          "line": 81,
+          "column": 56
+        }
+      },
+      "21": {
+        "start": {
+          "line": 88,
+          "column": 33
+        },
+        "end": {
+          "line": 88,
+          "column": 58
+        }
+      },
+      "22": {
+        "start": {
+          "line": 95,
+          "column": 33
+        },
+        "end": {
+          "line": 95,
+          "column": 60
+        }
+      },
+      "23": {
+        "start": {
+          "line": 102,
+          "column": 33
+        },
+        "end": {
+          "line": 102,
+          "column": 55
+        }
+      },
+      "24": {
+        "start": {
+          "line": 112,
+          "column": 33
+        },
+        "end": {
+          "line": 112,
+          "column": 59
+        }
+      },
+      "25": {
+        "start": {
+          "line": 131,
+          "column": 33
+        },
+        "end": {
+          "line": 131,
+          "column": 56
+        }
+      },
+      "26": {
+        "start": {
+          "line": 141,
+          "column": 14
+        },
+        "end": {
+          "line": 175,
+          "column": 16
+        }
+      },
+      "27": {
+        "start": {
+          "line": 147,
+          "column": 35
+        },
+        "end": {
+          "line": 147,
+          "column": 90
+        }
+      },
+      "28": {
+        "start": {
+          "line": 164,
+          "column": 35
+        },
+        "end": {
+          "line": 164,
+          "column": 86
+        }
+      },
+      "29": {
+        "start": {
+          "line": 172,
+          "column": 35
+        },
+        "end": {
+          "line": 172,
+          "column": 84
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "TeacherForm",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 9
+          },
+          "end": {
+            "line": 13,
+            "column": 20
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 37
+          },
+          "end": {
+            "line": 195,
+            "column": 1
+          }
+        },
+        "line": 13
+      },
+      "1": {
+        "name": "addNewScheduleItem",
+        "decl": {
+          "start": {
+            "line": 28,
+            "column": 11
+          },
+          "end": {
+            "line": 28,
+            "column": 29
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 28,
+            "column": 32
+          },
+          "end": {
+            "line": 32,
+            "column": 3
+          }
+        },
+        "line": 28
+      },
+      "2": {
+        "name": "handleCreateClass",
+        "decl": {
+          "start": {
+            "line": 34,
+            "column": 11
+          },
+          "end": {
+            "line": 34,
+            "column": 28
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 34,
+            "column": 43
+          },
+          "end": {
+            "line": 52,
+            "column": 3
+          }
+        },
+        "line": 34
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 45,
+            "column": 12
+          },
+          "end": {
+            "line": 45,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 45,
+            "column": 18
+          },
+          "end": {
+            "line": 49,
+            "column": 5
+          }
+        },
+        "line": 45
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 49,
+            "column": 13
+          },
+          "end": {
+            "line": 49,
+            "column": 14
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 49,
+            "column": 19
+          },
+          "end": {
+            "line": 51,
+            "column": 5
+          }
+        },
+        "line": 49
+      },
+      "5": {
+        "name": "setScheduleItemValue",
+        "decl": {
+          "start": {
+            "line": 54,
+            "column": 11
+          },
+          "end": {
+            "line": 54,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 54,
+            "column": 80
+          },
+          "end": {
+            "line": 64,
+            "column": 3
+          }
+        },
+        "line": 54
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 55,
+            "column": 50
+          },
+          "end": {
+            "line": 55,
+            "column": 51
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 55,
+            "column": 75
+          },
+          "end": {
+            "line": 61,
+            "column": 5
+          }
+        },
+        "line": 55
+      },
+      "7": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": {
+            "line": 81,
+            "column": 24
+          },
+          "end": {
+            "line": 81,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 81,
+            "column": 31
+          },
+          "end": {
+            "line": 81,
+            "column": 58
+          }
+        },
+        "line": 81
+      },
+      "8": {
+        "name": "(anonymous_8)",
+        "decl": {
+          "start": {
+            "line": 88,
+            "column": 24
+          },
+          "end": {
+            "line": 88,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 88,
+            "column": 31
+          },
+          "end": {
+            "line": 88,
+            "column": 60
+          }
+        },
+        "line": 88
+      },
+      "9": {
+        "name": "(anonymous_9)",
+        "decl": {
+          "start": {
+            "line": 95,
+            "column": 24
+          },
+          "end": {
+            "line": 95,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 95,
+            "column": 31
+          },
+          "end": {
+            "line": 95,
+            "column": 62
+          }
+        },
+        "line": 95
+      },
+      "10": {
+        "name": "(anonymous_10)",
+        "decl": {
+          "start": {
+            "line": 102,
+            "column": 24
+          },
+          "end": {
+            "line": 102,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 102,
+            "column": 31
+          },
+          "end": {
+            "line": 102,
+            "column": 57
+          }
+        },
+        "line": 102
+      },
+      "11": {
+        "name": "(anonymous_11)",
+        "decl": {
+          "start": {
+            "line": 112,
+            "column": 24
+          },
+          "end": {
+            "line": 112,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 112,
+            "column": 31
+          },
+          "end": {
+            "line": 112,
+            "column": 61
+          }
+        },
+        "line": 112
+      },
+      "12": {
+        "name": "(anonymous_12)",
+        "decl": {
+          "start": {
+            "line": 131,
+            "column": 24
+          },
+          "end": {
+            "line": 131,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 131,
+            "column": 31
+          },
+          "end": {
+            "line": 131,
+            "column": 58
+          }
+        },
+        "line": 131
+      },
+      "13": {
+        "name": "(anonymous_13)",
+        "decl": {
+          "start": {
+            "line": 140,
+            "column": 31
+          },
+          "end": {
+            "line": 140,
+            "column": 32
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 140,
+            "column": 56
+          },
+          "end": {
+            "line": 176,
+            "column": 13
+          }
+        },
+        "line": 140
+      },
+      "14": {
+        "name": "(anonymous_14)",
+        "decl": {
+          "start": {
+            "line": 147,
+            "column": 30
+          },
+          "end": {
+            "line": 147,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 147,
+            "column": 35
+          },
+          "end": {
+            "line": 147,
+            "column": 90
+          }
+        },
+        "line": 147
+      },
+      "15": {
+        "name": "(anonymous_15)",
+        "decl": {
+          "start": {
+            "line": 164,
+            "column": 30
+          },
+          "end": {
+            "line": 164,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 164,
+            "column": 35
+          },
+          "end": {
+            "line": 164,
+            "column": 86
+          }
+        },
+        "line": 164
+      },
+      "16": {
+        "name": "(anonymous_16)",
+        "decl": {
+          "start": {
+            "line": 172,
+            "column": 30
+          },
+          "end": {
+            "line": 172,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 172,
+            "column": 35
+          },
+          "end": {
+            "line": 172,
+            "column": 84
+          }
+        },
+        "line": 172
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 56,
+            "column": 6
+          },
+          "end": {
+            "line": 58,
+            "column": 7
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 56,
+              "column": 6
+            },
+            "end": {
+              "line": 58,
+              "column": 7
+            }
+          },
+          {
+            "start": {
+              "line": 56,
+              "column": 6
+            },
+            "end": {
+              "line": 58,
+              "column": 7
+            }
+          }
+        ],
+        "line": 56
+      }
+    },
+    "s": {
+      "0": 1800,
+      "1": 1800,
+      "2": 1800,
+      "3": 1800,
+      "4": 1800,
+      "5": 1800,
+      "6": 1800,
+      "7": 1800,
+      "8": 2,
+      "9": 6,
+      "10": 6,
+      "11": 4,
+      "12": 4,
+      "13": 2,
+      "14": 24,
+      "15": 36,
+      "16": 24,
+      "17": 12,
+      "18": 24,
+      "19": 1800,
+      "20": 96,
+      "21": 298,
+      "22": 86,
+      "23": 364,
+      "24": 6,
+      "25": 16,
+      "26": 2228,
+      "27": 8,
+      "28": 8,
+      "29": 8
+    },
+    "f": {
+      "0": 1800,
+      "1": 2,
+      "2": 6,
+      "3": 4,
+      "4": 2,
+      "5": 24,
+      "6": 36,
+      "7": 96,
+      "8": 298,
+      "9": 86,
+      "10": 364,
+      "11": 6,
+      "12": 16,
+      "13": 2228,
+      "14": 8,
+      "15": 8,
+      "16": 8
+    },
+    "b": {
+      "0": [
+        24,
+        12
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "fbf2e248a540a355b371a3cbd4cf4b24d6784ed6"
+  },
+  "/home/gustavo/develop/agilizei/cypress/modulo-04-1/web/src/routes.tsx": {
+    "path": "/home/gustavo/develop/agilizei/cypress/modulo-04-1/web/src/routes.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 9,
+          "column": 2
+        },
+        "end": {
+          "line": 15,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Routes",
+        "decl": {
+          "start": {
+            "line": 8,
+            "column": 9
+          },
+          "end": {
+            "line": 8,
+            "column": 15
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 32
+          },
+          "end": {
+            "line": 16,
+            "column": 1
+          }
+        },
+        "line": 8
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 22
+    },
+    "f": {
+      "0": 22
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "47c95a90439cb53d85c5f18fe3aff5757f269f64"
+  },
+  "/home/gustavo/develop/agilizei/cypress/modulo-04-1/web/src/App.tsx": {
+    "path": "/home/gustavo/develop/agilizei/cypress/modulo-04-1/web/src/App.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 8,
+          "column": 2
+        },
+        "end": {
+          "line": 8,
+          "column": 20
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "App",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 9
+          },
+          "end": {
+            "line": 7,
+            "column": 12
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 29
+          },
+          "end": {
+            "line": 9,
+            "column": 1
+          }
+        },
+        "line": 7
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 22
+    },
+    "f": {
+      "0": 22
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "2e6c5594b75b90bf75cabb41c4c97eb34887df3b"
+  },
+  "/home/gustavo/develop/agilizei/cypress/modulo-04-1/web/src/index.tsx": {
+    "path": "/home/gustavo/develop/agilizei/cypress/modulo-04-1/web/src/index.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 2
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 11
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "c23abaf9a1e7fe4b0f152dacceca1cd60d532c9e"
+  }
+}

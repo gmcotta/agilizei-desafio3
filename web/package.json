@@ -24,6 +24,7 @@
     "start:inst": "react-scripts -r @cypress/instrument-cra start",
     "server": "cd ../server && yarn start",
     "start:ci": "run-p server start",
+    "start:ci:inst": "run-p server start:inst",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -36,7 +37,8 @@
     "test:ui": "cypress run --spec 'cypress/integration/ui/**'",
     "test:api": "cypress run --spec 'cypress/integration/api/**'",
     "test:component": "cypress run-ct",
-    "test:all": "run-p test:ui test:api test:component"
+    "test:all": "run-p test:ui test:api test:component",
+    "coverage:report": "nyc report --reporter=html"
   },
   "eslintConfig": {
     "extends": "react-app"

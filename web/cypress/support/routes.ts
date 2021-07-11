@@ -1,10 +1,23 @@
 class Routes {
-  alias = {
-    POST_CLASSES: 'Post-Classes',
+  alias: {
+    POST_CLASSES_SUCCESS: 'Post-Classes',
+    POST_CLASSES_BAD_REQUEST: 'Post-Classes_BadRequest'
   }
 
-  init() {
-    cy.intercept('POST', '**/classes').as(this.alias.POST_CLASSES);
+  initPostClassesSuccess() {
+    cy.intercept('POST', '/classes')
+      .as(this.alias.POST_CLASSES_SUCCESS);
+  }
+
+  initPostClassesBadRequest() {
+    cy.intercept('POST', '/classes', {
+      statusCode: 400
+    }).as(this.alias.POST_CLASSES_BAD_REQUEST);
+  }
+
+  initAll() {
+    this.initPostClassesSuccess();
+    this.initPostClassesBadRequest();
   }
 }
 

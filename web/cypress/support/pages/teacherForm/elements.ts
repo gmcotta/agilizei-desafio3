@@ -5,10 +5,17 @@ const ELEMENTS = {
   textareaBio: 'textarea#bio',
   selectSubject: 'select#subject',
   inputCost: 'input#cost',
-  selectWeekday: 'select#week_day',
-  inputFrom: 'input#from',
-  inputTo: 'input#to',
+  buttonNewSchedule: 'button[type="button"]',
   buttonSubmit: 'footer>button',
+  selectWeekdayWithIndex(index: number) {
+    return `div.schedule-item.item-${index} > .select-block > select`;
+  },
+  inputFromWithIndex(index: number) {
+    return `div.schedule-item.item-${index} > .input-block > input#from`;
+  },
+  inputToWithIndex(index: number) {
+    return `div.schedule-item.item-${index} > .input-block > input#to`;
+  },
 };
 
 export default ELEMENTS;
