@@ -1,7 +1,9 @@
+/// <reference types="cypress" />
 class Routes {
-  alias: {
+  alias = {
     POST_CLASSES_SUCCESS: 'Post-Classes',
-    POST_CLASSES_BAD_REQUEST: 'Post-Classes_BadRequest'
+    POST_CLASSES_BAD_REQUEST: 'Post-Classes_BadRequest',
+    POST_CONNECTIONS_SUCCESS: 'Post-Connections',
   }
 
   initPostClassesSuccess() {
@@ -15,9 +17,15 @@ class Routes {
     }).as(this.alias.POST_CLASSES_BAD_REQUEST);
   }
 
+  initPostConnectionsSuccess() {
+    cy.intercept('POST', '/connections')
+      .as(this.alias.POST_CONNECTIONS_SUCCESS);
+  }
+
   initAll() {
     this.initPostClassesSuccess();
     this.initPostClassesBadRequest();
+    this.initPostConnectionsSuccess();
   }
 }
 

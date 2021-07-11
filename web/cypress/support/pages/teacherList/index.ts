@@ -1,10 +1,7 @@
+import routes from '../../routes';
 import el from './elements';
 
 class TeacherList {
-  interceptPostConnections201() {
-    cy.intercept('/connections').as('Post-Connections');
-  }
-
   accessPage() {
     cy.visit('/study');
   }
@@ -49,9 +46,10 @@ class TeacherList {
   }
 
   checkIfCreateNewConnectionWasCalled() {
-    cy.wait('@Post-Connections').then(({ response }) => {
-      expect(response.statusCode).to.equal(201);
-    })
+    cy.wait(`@${routes.alias.POST_CONNECTIONS_SUCCESS}`)
+      .then(({ response }) => {
+        expect(response.statusCode).to.equal(201);
+      });
   }
 }
 

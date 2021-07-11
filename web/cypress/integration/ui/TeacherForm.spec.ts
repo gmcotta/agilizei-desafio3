@@ -1,12 +1,13 @@
 /// <reference types="cypress" />
 import TeacherFormPageObject from "../../support/pages/teacherForm";
+import routes from "../../support/routes";
 
 const teacherFormPage = new TeacherFormPageObject();
 
 context('Teacher Form Page', () => {
   context('should register a teacher', () => {
     it('with a single schedule', () => {
-      teacherFormPage.interceptPostClasses201();
+      routes.initPostClassesSuccess();
       teacherFormPage.accessPage();
       
       teacherFormPage.fillForm();
@@ -16,7 +17,7 @@ context('Teacher Form Page', () => {
     });
     
     it('with multiple schedules', () => {
-      teacherFormPage.interceptPostClasses201();
+      routes.initPostClassesSuccess();
       teacherFormPage.accessPage();
   
       teacherFormPage.fillFormWithTwoSchedules();
@@ -26,7 +27,7 @@ context('Teacher Form Page', () => {
     });
   });
   it('should give an error response while register a teacher', () => {
-    teacherFormPage.interceptPostClasses400();
+    routes.initPostClassesBadRequest();
     teacherFormPage.accessPage();
 
     teacherFormPage.fillForm();

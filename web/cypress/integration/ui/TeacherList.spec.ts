@@ -1,5 +1,6 @@
 /// <reference types="cypress" />
 import TeacherListPageObject from "../../support/pages/teacherList";
+import routes from "../../support/routes";
 
 const teacherListPage = new TeacherListPageObject();
 
@@ -14,7 +15,7 @@ context('Teacher List Page', () => {
   });
 
   it('should check if createNewConnection was called', () => {
-    teacherListPage.interceptPostConnections201();
+    routes.initPostConnectionsSuccess();
     teacherListPage.accessPage();
 
     teacherListPage.fillForm();

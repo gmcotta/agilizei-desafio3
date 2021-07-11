@@ -5,16 +5,6 @@ import el from './elements';
 faker.locale = 'pt_BR';
 
 class TeacherForm {
-  interceptPostClasses201() {
-    cy.intercept('POST', '/classes').as('Post-Classes');
-  }
-  
-  interceptPostClasses400() {
-    cy.intercept('POST', '/classes', {
-      statusCode: 400
-    }).as('Post-Classes_BadRequest');
-  }
-
   accessPage() {
     cy.visit('/give-classes');
   }
