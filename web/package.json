@@ -37,7 +37,7 @@
     "test:ui": "cypress run --spec 'cypress/integration/ui/**'",
     "test:api": "cypress run --spec 'cypress/integration/api/**'",
     "test:component": "cypress run-ct",
-    "test:all": "run-p test:ui test:api test:component",
+    "test:all": "cypress run --spec 'cypress/integration/**'",
     "coverage:report": "nyc report --reporter=html"
   },
   "eslintConfig": {
