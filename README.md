@@ -1,6 +1,6 @@
 # Agilizei Bootcamp - Challenge 3
 
-The challenge is to complement the tests made on the Level 3 of the bootcamp, which we improve our understanding about component, API and UI testing. We also see how to use Cypress Dashboard.
+The challenge is to complement the tests made on the Level 3 of the bootcamp, which we improve our understanding about component, API and UI testing. We also see how to use [Cypress Dashboard.](https://dashboard.cypress.io/projects/sbbzcn/runs/2/overview)
 
 The testing application is Proffy, an app where teachers can offer classes at affordable prices, and students can hire then. 
 
